@@ -4,77 +4,86 @@
 
 ## Introduction
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you use our mobile application ("the App").
+This Privacy Policy describes how your personal information is collected, used, and shared when you use the Compa app ("the App").
 
-We are committed to protecting your privacy and ensuring you have a positive experience using our App. This policy outlines our practices concerning the data we collect from users.
+We are committed to protecting your privacy. This policy outlines our practices concerning the data we handle.
 
 ## Information We Collect
 
 ### Information You Provide
 
-- **Sobriety Data**: If you use the sobriety tracking feature, we store your sobriety date and substance preferences locally on your device.
-- **Chat Messages**: Conversations with AI companions are stored locally on your device to maintain conversation history.
-- **Personal Preferences**: Any customizations or settings you configure within the App.
+- **Sobriety Date**: Your sobriety start date is stored locally on your device only.
+- **Chat Messages**: Conversations with AI companions (Jennifer and Bob) are stored locally on your device.
+- **Journal Entries**: Any diary entries you create are stored locally on your device.
+- **Trigger Selections**: Your craving trigger tracking data is stored locally on your device.
+- **Budget Data**: Any budget or financial tracking entries are stored locally on your device.
+- **Diet Entries**: Any diet/nutrition tracking data is stored locally on your device.
+- **MP3 Files**: Audio files you import are stored in the app's local documents folder on your device.
 
 ### Information Collected Automatically
 
-- **Location Data**: When you use the AA/NA Meeting Finder feature, we request access to your device's location to find meetings near you. This data is used only for this purpose and is not stored or shared.
+**None.** This app does not automatically collect any data from your device.
 
 ### Information Processed by Third Parties
 
-- **AI Conversations**: When you chat with AI companions, your messages are sent to our secure server to generate responses. We do not store these conversations on our servers; they are processed in real-time and discarded.
+- **AI Conversations**: When you chat with AI companions, your messages are sent to our secure server to generate responses. Messages are processed in real-time and **immediately discarded** — we do not store your conversations on our servers.
 
 ## How We Use Your Information
 
-We use the information we collect to:
+We use the information solely to:
 
 - Provide and maintain the App's functionality
-- Find AA/NA meetings near your location
 - Generate AI companion responses
-- Improve and personalize your experience
-- Send optional reminder notifications (if enabled)
+- Display your sobriety progress
 
 ## Data Storage
 
-- **Local Storage**: Most of your data (sobriety dates, preferences, chat history) is stored locally on your device using Apple's secure storage mechanisms.
-- **No Account Required**: The App does not require you to create an account, and we do not collect personal identifiers like email addresses or phone numbers.
+**All data is stored locally on your device.** Specifically:
+
+- Sobriety dates → UserDefaults (on device)
+- Chat history → UserDefaults (on device)
+- Journal entries → UserDefaults (on device)
+- Trigger tracking → UserDefaults (on device)
+- Budget data → UserDefaults (on device)
+- MP3 files → App Documents folder (on device)
+
+**No Account Required**: The App does not require you to create an account. We do not collect email addresses, phone numbers, names, or any personal identifiers.
 
 ## Third-Party Services
 
-The App uses the following third-party services:
+The App uses the following third-party services for AI chat only:
 
-- **Supabase**: For secure API routing (no personal data stored)
-- **HuggingFace**: For AI language processing (messages processed in real-time, not stored)
+- **Supabase**: Secure API routing (no personal data stored)
+- **HuggingFace**: AI language processing (messages processed in real-time, not stored)
 
-These services have their own privacy policies, and we encourage you to review them.
+These services have their own privacy policies.
 
 ## Data Sharing
 
-We do not sell, trade, or otherwise transfer your personal information to third parties. Your data is used solely to provide App functionality.
+We do **not** sell, trade, or transfer your personal information to third parties. Your data stays on your device.
 
 ## Data Security
 
-We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
+Your data is stored using Apple's secure storage mechanisms (UserDefaults and sandboxed Documents folder). Data never leaves your device except for AI chat messages, which are encrypted in transit and immediately discarded after processing.
 
 ## Children's Privacy
 
-The App is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13.
+The App is not intended for use by children under the age of 17 due to its subject matter (addiction recovery). We do not knowingly collect personal information from children.
 
 ## Your Rights
 
 You have the right to:
 
-- **Access**: View what data is stored on your device through the App
-- **Delete**: Clear all locally stored data by deleting the App or using in-app reset options
-- **Opt-Out**: Deny location permissions and still use other App features
+- **Delete**: Clear all data by deleting the App, or use in-app reset options for specific features
+- **Control**: All data is on your device — you have complete control
 
 ## Changes to This Policy
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy in the App and updating the "Last Updated" date.
+We may update this Privacy Policy from time to time. Changes will be posted with an updated "Last Updated" date.
 
 ## Contact Us
 
-If you have questions about this Privacy Policy or our privacy practices, please contact us at:
+If you have questions about this Privacy Policy, please contact us at:
 
 **Email**: normaldude99@yahoo.com
 
