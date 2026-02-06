@@ -82,12 +82,12 @@ The App uses the following third-party services:
 | Service | Purpose | Data Sent |
 |---------|---------|-----------|
 | **Supabase** | Secure API routing for AI chat | Chat messages, first name (processed in real-time, not stored) |
-| **HuggingFace** | AI language model processing (Mistral-7B) | Chat messages (processed in real-time, not stored) |
+| **DeepSeek** | AI language model processing | Chat messages (processed in real-time, not stored) |
 | **Apple StoreKit** | Subscription management | Managed entirely by Apple |
 
 These services have their own privacy policies:
 - [Supabase Privacy Policy](https://supabase.com/privacy)
-- [HuggingFace Privacy Policy](https://huggingface.co/privacy)
+- [DeepSeek Privacy Policy](https://www.deepseek.com/privacy)
 - [Apple Privacy Policy](https://www.apple.com/privacy/)
 
 ## Data Sharing
@@ -100,7 +100,7 @@ We do **not** sell, trade, or transfer your personal information to third partie
 
 - All data on your device is stored using Apple's secure sandboxed storage mechanisms
 - AI chat messages are encrypted in transit using HTTPS/TLS
-- The HuggingFace API key is stored server-side (Supabase Edge Function) and is never exposed to the client app
+- The DeepSeek API key is stored server-side (Supabase Edge Function) and is never exposed to the client app
 - No personal data is stored on our servers
 
 ## Children's Privacy
