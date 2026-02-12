@@ -20,7 +20,7 @@ Compa is your personal AI sobriety companion — always there when you need supp
 - **Craving Support** — Tools and guidance when urges hit
 - **Daily Journal** — Document your recovery journey
 - **Meditation & Prayer** — Calming content for spiritual wellness
-- **Relaxing Music** — Soothing audio for difficult moments
+- **MP3 Player** — Add your music files and play your favorite hits.
 
 ### Privacy
 
