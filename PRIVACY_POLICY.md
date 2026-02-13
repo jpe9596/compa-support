@@ -30,7 +30,7 @@ The App may request the following permissions:
 
 - **Notifications**: Used to send local reminders for morning pledges, evening reviews, and AI companion check-ins. All notifications are scheduled and triggered locally on your device — no remote push notification servers are involved.
 - **Background Audio**: Used to continue music playback when the App is in the background.
-- **Microphone**: Required only if you use voice chat with AI companions. Audio is processed on-device by Apple's Speech framework or sent to ElevenLabs for text-to-speech (see "Third-Party Services" below). We do not record or store your audio.
+- **Microphone**: Required only if you use voice chat with AI companions. Your voice audio is used only for speech recognition (see "Third-Party Services" below) and is not used for text-to-speech generation. We do not record or store your audio.
 - **Speech Recognition**: Used to convert your voice to text when speaking to AI companions. Speech recognition is processed by Apple's on-device Speech framework.
 
 ### Information Processed by Third Parties
