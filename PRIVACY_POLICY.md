@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: February 9, 2026**
+**Last Updated: February 13, 2026**
 
 ## Introduction
 
@@ -36,7 +36,7 @@ The App may request the following permissions:
 ### Information Processed by Third Parties
 
 - **AI Conversations**: When you chat with AI companions, your messages, conversation history (last 6 messages), and first name (if provided) are sent to our secure server to generate responses. Messages are processed in real-time and **immediately discarded** — we do not store your conversations on our servers.
-- **Voice Synthesis**: When realistic voice mode is enabled (premium feature), the AI companion's text response is sent to ElevenLabs through our Supabase server to generate spoken audio. The text is processed in real-time and is not stored. No user voice data is sent to ElevenLabs — only the AI's text output.
+- **Voice Synthesis**: When text-to-speech is enabled, the AI companion's text response is sent to ElevenLabs through our Supabase server to generate spoken audio. This feature is included with all subscription tiers. The text is processed in real-time and is not stored. No user voice data is sent to ElevenLabs — only the AI's text output.
 - **Community Forum**: Forum posts, nicknames, and direct messages are stored on our Supabase server to enable the community feature. You may delete your posts at any time.
 
 ## Sensitive Health Information
@@ -83,7 +83,7 @@ We use the information solely to:
 
 ## In-App Purchases
 
-COMPA.ai Premium subscriptions are processed entirely by Apple through StoreKit. We do not collect or have access to your payment information (credit card numbers, billing address, etc.). Subscription status is verified locally on your device through Apple's transaction system. Please refer to [Apple's Privacy Policy](https://www.apple.com/privacy/) for how Apple handles payment data.
+COMPA.ai subscriptions (Starter, Basic, Plus, and Premium tiers) are processed entirely by Apple through StoreKit. We do not collect or have access to your payment information (credit card numbers, billing address, etc.). Subscription status is verified locally on your device through Apple's transaction system. Please refer to [Apple's Privacy Policy](https://www.apple.com/privacy/) for how Apple handles payment data.
 
 ## Third-Party Services
 
@@ -93,7 +93,7 @@ The App uses the following third-party services:
 |---------|---------|-----------|
 | **Supabase** | Secure API routing for AI chat; community forum hosting | Chat messages and first name for AI (processed in real-time, not stored); forum posts and nicknames (stored) |
 | **DeepSeek** | AI language model processing | Chat messages (processed in real-time, not stored) |
-| **ElevenLabs** | AI voice synthesis (premium feature) | AI companion text responses for voice generation (processed in real-time, not stored). No user audio or personal data is sent. |
+| **ElevenLabs** | AI voice synthesis (all subscription tiers) | AI companion text responses for voice generation (processed in real-time, not stored). No user audio or personal data is sent. |
 | **Apple StoreKit** | Subscription management | Managed entirely by Apple |
 | **Apple Speech Framework** | On-device speech recognition | Voice audio processed locally on device by Apple |
 
@@ -108,7 +108,7 @@ These services have their own privacy policies:
 We do **not** sell, trade, or transfer your personal information to third parties. Your data stays on your device except:
 
 - AI chat messages and your first name (if provided) are transmitted to generate AI responses and are **immediately discarded** after processing
-- AI companion text responses are transmitted to ElevenLabs for voice synthesis when realistic voice mode is enabled (premium feature), and are **immediately discarded** after audio is generated
+- AI companion text responses are transmitted to ElevenLabs for voice synthesis when text-to-speech is enabled (included with all subscription tiers), and are **immediately discarded** after audio is generated
 - Community forum posts, nicknames, and direct messages are stored on our Supabase server to facilitate the community feature
 
 ## Data Security
