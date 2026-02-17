@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: February 13, 2026**
+**Last Updated: February 17, 2026**
 
 ## Introduction
 
@@ -28,10 +28,11 @@ This Privacy Policy describes how your personal information is collected, used, 
 
 The App may request the following permissions:
 
-- **Notifications**: Used to send local reminders for morning pledges, evening reviews, and AI companion check-ins. All notifications are scheduled and triggered locally on your device — no remote push notification servers are involved.
+- **Notifications**: Used to send local reminders for morning pledges, evening reviews, and AI companion check-ins. All notifications are scheduled and triggered locally on your device — no remote push notification servers are involved. The App may learn your preferred chat times to send reminders at the most helpful moments.
 - **Background Audio**: Used to continue music playback when the App is in the background.
 - **Microphone**: Required only if you use voice chat with AI companions. Your voice audio is used only for speech recognition (see "Third-Party Services" below) and is not used for text-to-speech generation. We do not record or store your audio.
 - **Speech Recognition**: Used to convert your voice to text when speaking to AI companions. Speech recognition is processed by Apple's on-device Speech framework.
+- **Widgets (Home Screen & Lock Screen)**: The App provides widgets that display your sobriety streak, days sober, and companion information on your Home Screen or Lock Screen. This data is read from shared on-device storage (App Groups) and is never transmitted to any server.
 
 ### Information Processed by Third Parties
 
@@ -73,6 +74,9 @@ We use the information solely to:
 | First name | UserDefaults (on device) |
 | Language preference | UserDefaults (on device) |
 | Mood tracking | UserDefaults (on device) |
+| Preferred chat time | UserDefaults (on device) |
+| Last active companion | UserDefaults (on device) |
+| Widget display data | App Group shared storage (on device) |
 | MP3 files | App Documents folder (on device) |
 | Forum posts & DMs | Supabase server (encrypted in transit) |
 | Forum nickname | Supabase server & UserDefaults (on device) |
