@@ -18,7 +18,6 @@ This Privacy Policy describes how your personal information is collected, used, 
 - **Budget Data**: Financial tracking entries are stored locally on your device.
 - **MP3 Files**: Audio files you import are stored in the app's local documents folder on your device.
 - **Language Preference**: Your selected language (English or Spanish) is stored locally on your device.
-- **Community Forum Data**: If you choose to join the Community forum, your chosen nickname, forum posts, and direct messages are stored on our Supabase server. See "Community Forum" below.
 
 ### Information Collected Automatically
 
@@ -38,7 +37,6 @@ The App may request the following permissions:
 
 - **AI Conversations**: When you chat with AI companions, your messages, conversation history (last 6 messages), and first name (if provided) are sent to our secure server to generate responses. Messages are processed in real-time and **immediately discarded** — we do not store your conversations on our servers.
 - **Voice Synthesis**: When text-to-speech is enabled, the AI companion's text response is sent to ElevenLabs through our Supabase server to generate spoken audio. This feature is included with all subscription tiers. The text is processed in real-time and is not stored. No user voice data is sent to ElevenLabs — only the AI's text output.
-- **Community Forum**: Forum posts, nicknames, and direct messages are stored on our Supabase server to enable the community feature. You may delete your posts at any time.
 
 ## Sensitive Health Information
 
@@ -47,7 +45,6 @@ This App handles information related to addiction recovery, including sobriety d
 - All health-related data is stored **exclusively on your device**
 - Health data is **never transmitted** to any server (except AI chat messages, which are immediately discarded after generating a response)
 - Health data is **never sold, shared, or used for advertising**
-- Community forum posts are user-initiated and voluntary — we recommend not sharing personally identifiable health details in public forum posts
 
 ## How We Use Your Information
 
@@ -58,11 +55,10 @@ We use the information solely to:
 - Generate AI companion voice responses (when realistic voice is enabled)
 - Display your sobriety progress and milestones
 - Send local reminder notifications for journaling
-- Enable community forum interactions between users
 
 ## Data Storage
 
-**All personal recovery data is stored locally on your device.** Community forum data is stored on our Supabase server. Specifically:
+**All personal recovery data is stored locally on your device.** Specifically:
 
 | Data | Storage Location |
 |------|-----------------|
@@ -78,12 +74,10 @@ We use the information solely to:
 | Last active companion | UserDefaults (on device) |
 | Widget display data | App Group shared storage (on device) |
 | MP3 files | App Documents folder (on device) |
-| Forum posts & DMs | Supabase server (encrypted in transit) |
-| Forum nickname | Supabase server & UserDefaults (on device) |
 
 **Note on Backups**: Data stored on your device may be included in iCloud or local iTunes/Finder backups according to your device's backup settings. These backups are managed by Apple and are subject to [Apple's Privacy Policy](https://www.apple.com/privacy/).
 
-**Account**: The App does not require a traditional account with email/password for its core features. The Community forum uses anonymous authentication through Supabase — only a chosen nickname is required. We do not collect email addresses, phone numbers, or government-issued identifiers.
+**Account**: The App does not require an account, email address, phone number, or government-issued identifier.
 
 ## In-App Purchases
 
@@ -95,7 +89,7 @@ The App uses the following third-party services:
 
 | Service | Purpose | Data Sent |
 |---------|---------|-----------|
-| **Supabase** | Secure API routing for AI chat; community forum hosting | Chat messages and first name for AI (processed in real-time, not stored); forum posts and nicknames (stored) |
+| **Supabase** | Secure API routing for AI chat and voice synthesis | Chat messages and first name for AI (processed in real-time, not stored) |
 | **DeepSeek** | AI language model processing | Chat messages (processed in real-time, not stored) |
 | **ElevenLabs** | AI voice synthesis (all subscription tiers) | AI companion text responses for voice generation (processed in real-time, not stored). No user audio or personal data is sent. |
 | **Apple StoreKit** | Subscription management | Managed entirely by Apple |
@@ -113,14 +107,12 @@ We do **not** sell, trade, or transfer your personal information to third partie
 
 - AI chat messages and your first name (if provided) are transmitted to generate AI responses and are **immediately discarded** after processing
 - AI companion text responses are transmitted to ElevenLabs for voice synthesis when text-to-speech is enabled (included with all subscription tiers), and are **immediately discarded** after audio is generated
-- Community forum posts, nicknames, and direct messages are stored on our Supabase server to facilitate the community feature
 
 ## Data Security
 
 - All data on your device is stored using Apple's secure sandboxed storage mechanisms
 - AI chat messages and voice synthesis requests are encrypted in transit using HTTPS/TLS
 - The DeepSeek and ElevenLabs API keys are stored server-side (Supabase Edge Functions) and are never exposed to the client app
-- Community forum data is transmitted and stored using Supabase's encrypted infrastructure
 - No personal recovery data is stored on our servers
 
 ## Children's Privacy
@@ -136,7 +128,6 @@ You have the right to:
 - **Revoke Data Consent**: Revoke AI data-sharing consent at any time within the app, which will disable AI chat features while keeping all other features available
 - **Revoke Permissions**: Revoke microphone, speech recognition, or notification access at any time through iOS Settings → COMPA.ai
 - **Opt Out of Name Sharing**: You can choose not to provide your name to AI companions
-- **Delete Forum Content**: Delete your community forum posts at any time
 - **Full Control**: All recovery data is on your device — you have complete control over it at all times
 
 ## Data Portability
