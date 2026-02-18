@@ -94,6 +94,7 @@ The App uses the following third-party services:
 | **ElevenLabs** | AI voice synthesis (all subscription tiers) | AI companion text responses for voice generation (processed in real-time, not stored). No user audio or personal data is sent. |
 | **Apple StoreKit** | Subscription management | Managed entirely by Apple |
 | **Apple Speech Framework** | On-device speech recognition | Voice audio processed locally on device by Apple |
+| **NanaBanana AI** | AI-generated companion scene images (used as chat backgrounds) | No user data sent. Images were generated during development and bundled into the app. |
 
 These services have their own privacy policies:
 - [Supabase Privacy Policy](https://supabase.com/privacy)
