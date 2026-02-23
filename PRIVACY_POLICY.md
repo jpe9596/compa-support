@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: February 23, 2026**
+**Last Updated: June 28, 2025**
 
 ## Introduction
 
@@ -18,9 +18,6 @@ This Privacy Policy describes how your personal information is collected, used, 
 - **Budget Data**: Financial tracking entries are stored locally on your device.
 - **MP3 Files**: Audio files you import are stored in the app's local documents folder on your device.
 - **Language Preference**: Your selected language (English or Spanish) is stored locally on your device.
-- **Community Posts**: If you participate in the Community Forum, your posted messages (limited to 150 characters) are stored on our Supabase servers along with your anonymous display name and an anonymous user ID. Posts are visible to other community members.
-- **Direct Messages**: If you use the direct messaging feature, your messages are stored on our Supabase servers along with your anonymous user ID. Messages are visible only to you and the recipient.
-- **Anonymous Account**: When you use community or direct messaging features, an anonymous account is created on our Supabase servers. This account uses a randomly generated email address (not your real email) and does not require any personal identifying information.
 
 ### Information Collected Automatically
 
@@ -77,13 +74,8 @@ We use the information solely to:
 | Last active companion | UserDefaults (on device) |
 | Widget display data | App Group shared storage (on device) |
 | MP3 files | App Documents folder (on device) |
-| Community forum posts | Supabase servers (cloud) |
-| Direct messages | Supabase servers (cloud) |
-| Anonymous account credentials | Keychain (on device) + Supabase auth (cloud) |
 
 **Note on Backups**: Data stored on your device may be included in iCloud or local iTunes/Finder backups according to your device's backup settings. These backups are managed by Apple and are subject to [Apple's Privacy Policy](https://www.apple.com/privacy/).
-
-**Anonymous Account**: When you use community features (forum posts or direct messages), an anonymous account is automatically created. This account does not use your real email address, phone number, or any government-issued identifier. The anonymous account is used solely to associate your posts and messages within the community and to enable blocking and reporting for user safety.
 
 ## In-App Purchases
 
@@ -95,7 +87,7 @@ The App uses the following third-party services:
 
 | Service | Purpose | Data Sent |
 |---------|---------|-----------|
-| **Supabase** | Secure API routing for AI chat and voice synthesis; community forum and direct messaging storage; anonymous authentication | Chat messages and first name for AI (processed in real-time, not stored); community posts, direct messages, and anonymous account data (stored on Supabase servers) |
+| **Supabase** | Secure API routing for AI chat and voice synthesis | Chat messages and first name for AI (processed in real-time, not stored) |
 | **DeepSeek** | AI language model processing | Chat messages (processed in real-time, not stored) |
 | **ElevenLabs** | AI voice synthesis (all subscription tiers) | AI companion text responses for voice generation (processed in real-time, not stored). No user audio or personal data is sent. |
 | **Apple StoreKit** | Subscription management | Managed entirely by Apple |
@@ -114,19 +106,10 @@ We do **not** sell, trade, or transfer your personal information to third partie
 
 - AI chat messages and your first name (if provided) are transmitted to generate AI responses and are **immediately discarded** after processing
 - AI companion text responses are transmitted to ElevenLabs for voice synthesis when text-to-speech is enabled (included with all subscription tiers), and are **immediately discarded** after audio is generated
-- Community forum posts and direct messages are stored on Supabase servers so they can be delivered to other users
 
 ## Community Features & User Safety
 
-The App includes a **Community Forum** and **Direct Messaging** feature. When using these features:
-
-- **Content you post is visible** to other community members (forum posts) or to your conversation partner (direct messages)
-- **Moderation tools**: You can report inappropriate content and block other users. Reports are reviewed by our moderation team. Blocked users cannot send you messages or see your posts
-- **Content filtering**: The App includes automated content filtering to detect and prevent inappropriate language
-- **Rate limiting**: Message sending is rate-limited to prevent spam and abuse
-- **Anonymity**: Community features use anonymous accounts — your real identity is never exposed to other users
-- **Data retention**: Community posts and direct messages are stored on Supabase servers. You can delete your own posts at any time. To request deletion of all your community data, contact us at the email below
-- **No personal data required**: You do not need to provide any real personal information to use community features
+Community features (forum posting, direct messaging) are **not currently available** in the App. The App does not require an account and does not support user-to-user communication at this time. If community features are introduced in the future, this Privacy Policy will be updated accordingly.
 
 ## Data Security
 
