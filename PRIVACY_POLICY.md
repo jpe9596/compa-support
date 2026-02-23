@@ -13,7 +13,7 @@ This Privacy Policy describes how your personal information is collected, used, 
 - **First Name**: If you choose to share your name with the AI companions, it is stored locally on your device. Your first name is also sent to our AI service to personalize responses (see "AI Conversations" below).
 - **Sobriety Date**: Your sobriety start date is stored locally on your device only.
 - **Chat Messages**: Conversations with AI companions (Jennifer, Bob, Marcus, Alex, and Maria) are stored locally on your device.
-- **Journal Entries**: Diary entries, morning pledges, and evening reviews are stored locally on your device.
+- **Journal Entries**: Diary entries are stored locally on your device.
 - **Trigger Selections**: Your craving trigger tracking data is stored locally on your device.
 - **Budget Data**: Financial tracking entries are stored locally on your device.
 - **MP3 Files**: Audio files you import are stored in the app's local documents folder on your device.
@@ -27,7 +27,7 @@ This Privacy Policy describes how your personal information is collected, used, 
 
 The App may request the following permissions:
 
-- **Notifications**: Used to send local reminders for morning pledges, evening reviews, and AI companion check-ins. All notifications are scheduled and triggered locally on your device — no remote push notification servers are involved. The App may learn your preferred chat times to send reminders at the most helpful moments.
+- **Notifications**: Used to send daily journal prompts from AI companions and check-in reminders if you haven't chatted with a companion in a while. All notifications are scheduled and triggered locally on your device — no remote push notification servers are involved. The App may learn your preferred chat times to send reminders at the most helpful moments.
 - **Background Audio**: Used to continue music playback when the App is in the background.
 - **Microphone**: Required only if you use voice chat with AI companions. Your voice audio is used only for speech recognition (see "Third-Party Services" below) and is not used for text-to-speech generation. We do not record or store your audio.
 - **Speech Recognition**: Used to convert your voice to text when speaking to AI companions. Speech recognition is processed by Apple's on-device Speech framework.
@@ -54,7 +54,7 @@ We use the information solely to:
 - Generate personalized AI companion responses
 - Generate AI companion voice responses (when realistic voice is enabled)
 - Display your sobriety progress and milestones
-- Send local reminder notifications for journaling
+- Send local notifications for daily journal prompts and companion check-ins
 
 ## Data Storage
 
@@ -64,7 +64,7 @@ We use the information solely to:
 |------|-----------------|
 | Sobriety dates | UserDefaults (on device) |
 | AI chat history | UserDefaults (on device) |
-| Journal / Pledge / Review entries | UserDefaults (on device) |
+| Journal entries | UserDefaults (on device) |
 | Trigger tracking | UserDefaults (on device) |
 | Budget data | UserDefaults (on device) |
 | First name | UserDefaults (on device) |
