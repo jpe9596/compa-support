@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: June 28, 2025**
+**Last Updated: February 26, 2026**
 
 ## Introduction
 
@@ -16,6 +16,9 @@ This Privacy Policy describes how your personal information is collected, used, 
 - **Journal Entries**: Diary entries are stored locally on your device.
 - **Trigger Selections**: Your craving trigger tracking data is stored locally on your device.
 - **Budget Data**: Financial tracking entries are stored locally on your device.
+- **Expense Data**: Expense categories, individual expense items, and amounts are stored locally on your device.
+- **Receipt Scans**: If you use the receipt scanner, the camera captures an image of your receipt which is processed on-device using Apple's Vision framework (OCR) to extract text and totals. The scanned image is used only for text extraction and is **not stored** — only the extracted text data (item names, amounts) is saved locally on your device.
+- **Personal Details Shared with Companions**: If you mention personal details during conversations — such as family members' names, hobbies, work, or life events — these may be remembered locally on your device so companions can provide more personalized support in future conversations. This data is never sent to any server.
 - **MP3 Files**: Audio files you import are stored in the app's local documents folder on your device.
 - **Language Preference**: Your selected language (English or Spanish) is stored locally on your device.
 
@@ -29,18 +32,19 @@ The App may request the following permissions:
 
 - **Notifications**: Used to send daily journal prompts from AI companions and check-in reminders if you haven't chatted with a companion in a while. All notifications are scheduled and triggered locally on your device — no remote push notification servers are involved. The App may learn your preferred chat times to send reminders at the most helpful moments.
 - **Background Audio**: Used to continue music playback when the App is in the background.
+- **Camera**: Used to scan receipts for expense tracking. Receipt images are processed on-device using Apple's Vision framework for text recognition (OCR). Images are not stored or transmitted — only the extracted text data is saved locally on your device.
 - **Microphone**: Required only if you use voice chat with AI companions. Your voice audio is used only for speech recognition (see "Third-Party Services" below) and is not used for text-to-speech generation. We do not record or store your audio.
 - **Speech Recognition**: Used to convert your voice to text when speaking to AI companions. Speech recognition is processed by Apple's on-device Speech framework.
 - **Widgets (Home Screen & Lock Screen)**: The App provides widgets that display your sobriety streak, days sober, and companion information on your Home Screen or Lock Screen. This data is read from shared on-device storage (App Groups) and is never transmitted to any server.
 
 ### Information Processed by Third Parties
 
-- **AI Conversations**: When you chat with AI companions, your messages, conversation history (last 6 messages), and first name (if provided) are sent to our secure server to generate responses. Messages are processed in real-time and **immediately discarded** — we do not store your conversations on our servers.
+- **AI Conversations**: When you chat with AI companions, your messages, conversation history (last 6 messages), first name (if provided), and general emotional context (e.g., "user seems anxious") are sent to our secure server to generate responses. The emotional context is derived on-device using Apple's built-in NaturalLanguage framework and keyword analysis — no audio or biometric data is used. Messages and context are processed in real-time and **immediately discarded** — we do not store your conversations on our servers.
 - **Voice Synthesis**: When text-to-speech is enabled, the AI companion's text response is sent to ElevenLabs through our Supabase server to generate spoken audio. This feature is included with all subscription tiers. The text is processed in real-time and is not stored. No user voice data is sent to ElevenLabs — only the AI's text output.
 
 ## Sensitive Health Information
 
-This App handles information related to addiction recovery, including sobriety dates, substance use indicators, craving triggers, mood data, and journal entries about recovery. We treat all of this as **sensitive health information**:
+This App handles information related to addiction recovery, including sobriety dates, substance use indicators, craving triggers, mood data, emotional state analysis, personal memories shared with companions, and journal entries about recovery. We treat all of this as **sensitive health information**:
 
 - All health-related data is stored **exclusively on your device**
 - Health data is **never transmitted** to any server (except AI chat messages, which are immediately discarded after generating a response)
@@ -67,9 +71,15 @@ We use the information solely to:
 | Journal entries | UserDefaults (on device) |
 | Trigger tracking | UserDefaults (on device) |
 | Budget data | UserDefaults (on device) |
+| Expense categories & items | UserDefaults (on device) |
+| Receipt scan results | UserDefaults (on device) |
 | First name | UserDefaults (on device) |
 | Language preference | UserDefaults (on device) |
 | Mood tracking | UserDefaults (on device) |
+| Emotional state analysis | UserDefaults (on device) |
+| Personal memory (names, hobbies, family) | UserDefaults (on device) |
+| Conversation highlights | UserDefaults (on device) |
+| Companion rapport level | UserDefaults (on device) |
 | Preferred chat time | UserDefaults (on device) |
 | Last active companion | UserDefaults (on device) |
 | Widget display data | App Group shared storage (on device) |
@@ -92,6 +102,8 @@ The App uses the following third-party services:
 | **ElevenLabs** | AI voice synthesis (all subscription tiers) | AI companion text responses for voice generation (processed in real-time, not stored). No user audio or personal data is sent. |
 | **Apple StoreKit** | Subscription management | Managed entirely by Apple |
 | **Apple Speech Framework** | On-device speech recognition | Voice audio processed locally on device by Apple |
+| **Apple NaturalLanguage Framework** | On-device sentiment analysis | Message text processed locally on device by Apple. No data transmitted. |
+| **Apple Vision Framework** | On-device receipt text recognition (OCR) | Receipt images processed locally on device by Apple. No data transmitted. |
 | **NanaBanana AI** | AI-generated companion scene images (used as chat backgrounds) | No user data sent. Images were generated during development and bundled into the app. |
 
 These services have their own privacy policies:
@@ -131,6 +143,7 @@ You have the right to:
 - **Revoke Data Consent**: Revoke AI data-sharing consent at any time within the app, which will disable AI chat features while keeping all other features available
 - **Revoke Permissions**: Revoke microphone, speech recognition, or notification access at any time through iOS Settings → COMPA.ai
 - **Opt Out of Name Sharing**: You can choose not to provide your name to AI companions
+- **Clear Personal Memory**: Companion memories of your personal details are stored on your device and can be cleared by deleting the App or clearing chat history
 - **Full Control**: All recovery data is on your device — you have complete control over it at all times
 
 ## Data Portability
