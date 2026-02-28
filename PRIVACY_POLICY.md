@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last Updated: February 26, 2026**
+**Last Updated: February 27, 2026**
 
 ## Introduction
 
@@ -138,6 +138,7 @@ The App is not intended for use by children under the age of 17 due to its subje
 
 You have the right to:
 
+- **Delete Account & Server Data**: Use the "Delete My Account & Data" option on the Dashboard to permanently delete your anonymous account and all associated server-side data (community posts, messages). This action is irreversible.
 - **Delete All Data**: Clear all data by deleting the App from your device
 - **Delete Specific Data**: Use in-app reset/delete options for individual features (clear chat history, delete diary entries, etc.)
 - **Revoke Data Consent**: Revoke AI data-sharing consent at any time within the app, which will disable AI chat features while keeping all other features available
